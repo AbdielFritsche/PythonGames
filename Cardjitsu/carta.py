@@ -2,7 +2,7 @@ class Carta:
     """
     Clase que representa una carta en el juego.
 
-    Attributes:
+    Attributos:
         elemento (str): El elemento de la carta (p. ej., "Fuego", "Agua", "Nieve").
         nivel_de_poder (int): El nivel de poder de la carta.
         posx (int): La coordenada x de la posición de la carta (por defecto 0).
