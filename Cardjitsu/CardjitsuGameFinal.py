@@ -20,7 +20,7 @@ def mostrar_ganador(jug):
     """
     Muestra al ganador de la partida o si terminó en empate.
 
-    Parameteros:
+    Parametros:
     jug (str): El nombre del jugador que ganó o "Empate" si fue un empate.
     """
     global enc
@@ -45,7 +45,7 @@ def anunciar_ganador(jug):
     """
     Anuncia al ganador de un encuentro o si terminó en empate.
 
-    Parameteros:
+    Parametros:
     jug (str): El nombre del jugador que ganó o "Empate" si fue un empate.
     """
     global enc
@@ -129,7 +129,7 @@ def verificar_ganador(j, c):
     """
     Verifica el ganador de una partida de acuerdo a las reglas del juego.
 
-    Parameteros:
+    Parametros:
     j (Carta): La carta seleccionada por el jugador.
     c (Carta): La carta seleccionada por la computadora.
 
@@ -167,7 +167,7 @@ def clic_en_carta(x, y):
     """
     Maneja el evento de clic en una carta del juego.
 
-    Parameteros:
+    Parametros:
     x (int): La posición x del clic.
     y (int): La posición y del clic.
     """
@@ -212,7 +212,7 @@ def crear_manos_iniciales(elementos, niveles_de_poder):
     """
     Crea las manos iniciales de cartas para el jugador y la computadora.
 
-    Parameteros:
+    Parametros:
     elementos (list): Lista de elementos disponibles.
     niveles_de_poder (list): Lista de niveles de poder disponibles.
     """
